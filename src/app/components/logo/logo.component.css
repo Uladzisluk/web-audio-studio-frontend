@@ -1,0 +1,27 @@
+.Header-component-LogoLink{
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.Header-component-LogoText{
+  height: 79px;
+  width: 76px;
+  margin: 0;
+  align-content: center;
+  font-size: 22px;
+  font-family: "Source Code Pro", serif;
+  font-weight: bold;
+}
+
+.Header-component-LogoWrapper{
+  height: 81px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.Header-component-LogoIcon{
+  margin-right: 10px;
+}
