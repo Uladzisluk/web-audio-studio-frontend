@@ -1,16 +1,23 @@
 .Header-component-Navigation{
   display: block;
   float: right;
+  height: 27px;
+}
+
+.Header-component-Navigation-ButtonWrapper{
+  display: inline-block;
 }
 
 .Header-component-Navigation-Button{
   font-family: "Inter", sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   color: #44465C;
   display: inline-block;
   padding: 0;
+  margin: 0;
+  height: 27px;
   border: none;
   background: none;
-  height: 27px;
+  vertical-align: bottom;
 }

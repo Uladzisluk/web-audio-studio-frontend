@@ -3,23 +3,20 @@
   margin-right: 80px;
 }
 
-.Header-component-Navigation-Button{
-  font-family: "Inter", sans-serif;
-  font-size: 22px;
-  font-weight: 500;
-  color: #44465C;
-  display: inline-block;
-  padding: 0;
-  border: none;
-  background: none;
+.Header-component-Navigation-ButtonContent{
   height: 27px;
-}
-
-
-.Header-component-Navigation-Button{
-
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0 4px 0 0;
+  align-content: center;
 }
 
 .Header-component-Navigation-FunctionsArrow{
-
+  display: inline-block;
+  height: 20px;
+  width: 14px;
+  align-content: center;
+  position: relative;
+  top: 5px;
 }

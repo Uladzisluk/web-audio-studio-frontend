@@ -1,6 +1,7 @@
 .Header-component-Header{
   background-color: #F3F4F7;
   margin: 0;
+  height: 70px;
 }
 
 .Header-component-HeaderContent{
@@ -9,6 +10,6 @@
   height: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 12px 120px;
+  padding: 0 120px;
   justify-content: space-between;
 }
