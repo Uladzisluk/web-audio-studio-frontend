@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { FunctionsNavigationComponent } from './components/functions-navigation/functions-navigation.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import {MainComponent} from "./components/main/main.component";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NavigationComponent } from './components/navigation/navigation.componen
     HeaderComponent,
     LogoComponent,
     FunctionsNavigationComponent,
-    NavigationComponent
+    NavigationComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

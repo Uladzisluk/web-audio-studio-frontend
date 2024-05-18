@@ -1,0 +1,219 @@
+.Main-component-Page{
+  background-color: #14161B;
+  height: 100%;
+  width: 100%;
+}
+
+.Main-component-PageContent{
+  margin: 0 auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.Main-component-Start{
+  display: flex;
+  height: calc(100vh - 88px);
+  justify-content: center;
+  max-height: 970px;
+  max-width: 100%;
+  min-height: 613px;
+  position: relative;
+  z-index: 0;
+}
+
+.Main-component-Section{
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.Main-component-SectionContent{
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 120px;
+  width: 100%;
+}
+
+.Main-component-StartContent{
+  display: flex;
+  padding: 0 0 0 120px;
+  position: relative;
+}
+
+.Main-component-SectionContent-StartContent{
+  position: relative;
+}
+
+.Main-component-StartHeader{
+  position: absolute;
+  top: 28%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.Main-component-SectionTitle{
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 64px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.Main-component-SectionTitle_dark{
+  color: #fff;
+}
+
+.Main-component-StartTitle{
+  margin: unset;
+}
+
+.Margin-component-StartSubtitle li::marker{
+  content: '●';
+  font-size: 1.2em;
+}
+
+.Main-component-SectionSubtitle{
+  color: #B0B7CB;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: .3px;
+  line-height: 28px;
+  margin-top: 32px;
+  box-sizing: border-box;
+  padding: unset;
+  font-family: Inter, sans-serif;
+}
+
+.Main-component-StartSubtitle ul{
+  margin: unset !important;
+}
+
+.Main-component-StartSubtitle ul li{
+  margin-left: -15px !important;
+}
+
+.Main-component-StartAction{
+  align-items: center;
+  display: flex;
+  margin: 32px -8px 0;
+}
+
+.Main-component-StartActionLinkPrimary{
+  flex-basis: 180px;
+}
+
+.Main-component-StartActionLink{
+  margin: 0 8px;
+  max-width: 50%;
+}
+
+.Main-component-StartActionButtonPrimary{
+  width: 100%;
+}
+
+.Main-component-Button{
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: none;
+  border-radius: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all .2s;
+  white-space: nowrap;
+  width: auto;
+  will-change: transform;
+}
+
+.Main-component-ButtonPrimary{
+  background-color: #A13CA3;
+  border: none;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 12px 40px;
+}
+
+.Main-component-StartActionButtonPrimary{
+  width: 100%;
+}
+
+.Main-component-ButtonContent{
+  align-items: inherit;
+  background-color: transparent;
+  display: inherit;
+  flex-direction: inherit;
+  font-size: inherit;
+  justify-content: inherit;
+  line-height: inherit;
+  position: relative;
+  text-decoration: inherit;
+}
+
+.Main-component-StartUploaderWrapper{
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.Main-component-StartUploader{
+  left: 25%;
+  position: relative;
+  top: 10%;
+}
+
+.Main-component-StartUploader::before{
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NzQiIGhlaWdodD0iNjEzIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgOTc0IDYxMyI+PGNpcmNsZSBjeD0iNjI0IiBjeT0iMzI5IiByPSI0NTMuNSIgc3Ryb2tlPSIjMkIyQzM5IiBvcGFjaXR5PSIuMiIvPjxjaXJjbGUgY3g9IjYyMy41IiBjeT0iMzI5LjUiIHI9IjYyMyIgc3Ryb2tlPSIjMkIyQzM5IiBvcGFjaXR5PSIuMiIvPjxjaXJjbGUgY3g9IjYyOC41IiBjeT0iMzM4LjUiIHI9IjI1OSIgc3Ryb2tlPSIjMkIyQzM5IiBvcGFjaXR5PSIuNSIvPjxjaXJjbGUgY3g9IjYyNCIgY3k9IjMyOSIgcj0iMzMxLjUiIHN0cm9rZT0iIzJCMkMzOSIgb3BhY2l0eT0iLjUiLz48Y2lyY2xlIGN4PSI2MjguNSIgY3k9IjMzOC41IiByPSIxOTciIHN0cm9rZT0iIzJCMkMzOSIvPjxjaXJjbGUgY3g9IjYyOC41IiBjeT0iMzQ0LjUiIHI9IjEyNyIgc3Ryb2tlPSIjMkIyQzM5Ii8+PC9zdmc+);
+  color: #2B2C39;
+  content: "";
+  height: 613px;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translate(-72%, -52%);
+  width: 874px;
+}
+
+.Main-component-StartUploaderContent{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.Main-component-StartUploaderIcon{
+  margin: 10px 0;
+}
+
+.Main-component-StartUploaderText{
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: none;
+  margin: 10px 0;
+  color: #B0B7CB;
+}
+
+.Main-component-StartUploaderTextColored{
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .3px;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: none;
+  margin: 10px 0;
+  color: #A13CA3;
+}
