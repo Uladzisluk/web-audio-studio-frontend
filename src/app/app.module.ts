@@ -8,6 +8,7 @@ import { LogoComponent } from './components/logo/logo.component';
 import { FunctionsNavigationComponent } from './components/functions-navigation/functions-navigation.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import {MainComponent} from "./components/main/main.component";
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {MainComponent} from "./components/main/main.component";
     LogoComponent,
     FunctionsNavigationComponent,
     NavigationComponent,
-    MainComponent
+    MainComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

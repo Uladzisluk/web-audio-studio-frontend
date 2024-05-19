@@ -1,0 +1,82 @@
+.Footer-component-Footer{
+  width: 100%;
+  background-color: #F3F4F7;
+  box-sizing: border-box;
+}
+
+.Footer-component-FooterContent{
+  background-color: #f3f4f7;
+  color: #44465C;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 40px 120px;
+  width: 100%;
+}
+
+.Footer-component-Logo{
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer-component-LogoWrapper{
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  margin: 0 4px;
+}
+
+.Footer-component-Copyright{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .3px;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.Footer-component-Navigation{
+  display: flex;
+  flex-direction: row;
+  margin: 0 -32px;
+}
+
+.Footer-component-NavigationItem{
+  margin: 0 32px;
+}
+
+.Footer-component-NavigationItemTitle{
+  margin: 0 0 40px;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.Footer-component-NavigationItemList{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Footer-component-NavigationItemLink{
+  color: #44465C;
+  cursor: pointer;
+  display: block;
+  margin: 16px 0;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .3px;
+  line-height: 24px;
+  text-transform: none;
+  text-decoration: none;
+}
