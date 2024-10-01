@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {AudioPageComponent} from "./features/audio/audio-page/audio-page.component";
-import {AppComponent} from "./app.component";
+import {AudioRoutingModule} from "./features/audio/audio-routing.module";
+import {MainComponent} from "./layout/main/main.component";
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
-  { path: 'home', component: AppComponent },
-  { path: 'audio', component: AudioPageComponent }
+  { path: 'home', component: MainComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes), AudioRoutingModule],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
