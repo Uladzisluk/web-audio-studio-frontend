@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import {LayoutModule} from "./layout/layout.module";
 import {SharedModule} from "./shared/shared.module";
 import {FeaturesModule} from "./features/features.module";
+import {AudioModule} from "./features/audio/audio.module";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {FeaturesModule} from "./features/features.module";
     AppRoutingModule,
     LayoutModule,
     SharedModule,
-    FeaturesModule
+    FeaturesModule,
+    AudioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
